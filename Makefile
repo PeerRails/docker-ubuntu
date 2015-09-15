@@ -4,7 +4,7 @@ build:
 	@docker build --tag=${USER}/ubuntu:latest .
 
 base:
-	@docker pull ubuntu:14.04
+	@docker pull ubuntu:15.04
 
 rebuild: base
 	@docker build --tag=${USER}/ubuntu:latest .
